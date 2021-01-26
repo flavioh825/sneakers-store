@@ -2,6 +2,10 @@
 
 Este é um projeto de layout de um aplicativo de loja virtual, desenvolvido usando Expo com React Native (Javascript).
 
+<p align="center">
+  <img src="/assets/showapp.gif" width="200" />
+</p>
+
 ###### bibliotecas 
 
 - Expo
@@ -14,3 +18,7 @@ Este é um projeto de layout de um aplicativo de loja virtual, desenvolvido usan
 2. yarn install ou npm install
 3. expo start (Já com o emulador android ou IOS rodando)
 
+<img src="/assets/ps1.png" width="200" /> .
+<img src="/assets/ps2.png" width="200" /> .
+<img src="/assets/ps3.png" width="200" /> .
+<img src="/assets/ps4.png" width="200" /> .
