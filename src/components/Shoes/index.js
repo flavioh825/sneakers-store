@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
     height: 175,
   },
   text: {
-    fontSize: 16
+    fontSize: 16,
+    color: '#2c2c2c',
   },
 });

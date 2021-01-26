@@ -11,7 +11,7 @@ const OtherProducts = () => {
 
   return(
     <View style={styles.container}>
-      <View opacity={0.4}>
+      <View>
         <Text style={styles.title}>Outros Produtos</Text>
       </View>
       <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>

@@ -38,7 +38,7 @@ const Home = () => {
           <TouchableOpacity 
             style={{position: 'absolute', right: 0, alignSelf: 'center'}}
             onPress={() => {}}>
-            <MaterialIcons name='filter-list' size={24} color="#000" />
+            <MaterialIcons name='filter-list' size={24} color="#2c2c2c" />
           </TouchableOpacity>
         </View>
       </View>
@@ -57,31 +57,31 @@ const Home = () => {
             img={require('../../assets/2.png')} 
             price="339,99" 
             text="Tenis Nike Court Lite 2" 
-            callDetail={() => alert("Clicou!")} 
+            callDetail={() => navigation.navigate('Detail')} 
           />
           <Shoes 
             img={require('../../assets/3.png')} 
             price="157,98" 
             text="Tenis Adidas Run the Game" 
-            callDetail={() => alert("Clicou!")} 
+            callDetail={() => navigation.navigate('Detail')}
           />
           <Shoes 
             img={require('../../assets/4.png')} 
             price="239,00" 
             text="Tenis Adidas Adizero Club" 
-            callDetail={() => alert("Clicou!")} 
+            callDetail={() => navigation.navigate('Detail')}
           />
           <Shoes 
             img={require('../../assets/5.png')} 
             price="499,00" 
             text="Tenis Adidas Gamecourt" 
-            callDetail={() => alert("Clicou!")} 
+            callDetail={() => navigation.navigate('Detail')}
           />
           <Shoes 
             img={require('../../assets/6.png')} 
             price="559,00" 
             text="Tenis Adidas Defiant Generation" 
-            callDetail={() => alert("Clicou!")} 
+            callDetail={() => navigation.navigate('Detail')}
           />
         </View>
       </ScrollView>
@@ -112,5 +112,6 @@ const styles = StyleSheet.create({
     fontFamily: 'Anton_400Regular',
     fontSize: 26,
     marginHorizontal: '1%',
+    color: '#2c2c2c',
   }
 });
