@@ -7,7 +7,6 @@ Este é um projeto de layout de um aplicativo de loja virtual, desenvolvido usan
   <img src="/assets/ps1.png" width="180" />
   <img src="/assets/ps2.png" width="180" />
   <img src="/assets/ps3.png" width="180" />
-  <img src="/assets/ps4.png" width="180" />
 </p>
 
 ###### bibliotecas 
